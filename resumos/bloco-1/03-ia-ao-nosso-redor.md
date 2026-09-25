@@ -45,3 +45,20 @@ Buscar ferramentas além do ChatGPT em diretórios como **There's An AI For That
 
 ## Minha reflexão
 _Onde eu já uso IA sem perceber?_
+
+## Minha reflexão
+
+Percebi que já uso IA sem perceber: nas recomendações de streaming e de apps de compra,
+no GPS, no feed das redes sociais.
+
+E, olhando as minhas ideias do módulo 02 com os três papéis da IA:
+
+| Ideia | Papel principal |
+|---|---|
+| Composição das rações | Apoio à decisão |
+| Serviços para pets | Apoio à decisão |
+| Estudos AWS | Apoio à automação |
+| Comparar preços | Apoio à decisão |
+
+Três das quatro ideias são de apoio à decisão.
+Faz sentido: o que me incomoda, na maioria das vezes, é não ter informação clara na hora de escolher.
