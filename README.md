@@ -67,7 +67,7 @@ A formação tem três trilhas, de acordo com o nível de cada participante. A m
 
 | # | Módulo | Status |
 |---|---|---|
-| 01 | Formular problemas reais que podem ser resolvidos com IA | [✅](resumos/bloco-1/01-formular-problemas.md) |
+| 01 | Formular problemas reais que podem ser resolvidos com IA | [✅](https://github.com/RegiMaria/potencia-ia-criadoras-do-futuro/blob/main/resumos/bloco-1/01-formular-problemas.md) |
 | 02 | O que é um problema resolvível com IA? | [✅](resumos/bloco-1/02-problema-resolvivel.md) |
 | 03 | IA ao nosso redor: onde já existem soluções? | [✅](resumos/bloco-1/03-ia-ao-nosso-redor.md) |
 | 04 | Olhando para seu contexto: onde a IA poderia ajudar? | [✅](resumos/bloco-1/04-olhando-para-seu-contexto.md) |
