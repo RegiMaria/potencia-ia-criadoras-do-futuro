@@ -50,3 +50,25 @@ Listar três problemas do meu cotidiano, escolher um e usar o PACEF adaptado.
 
 ## Minha reflexão
 _Quais foram os meus três problemas?_
+
+## Minha reflexão
+
+_Quais foram os meus problemas?_
+
+| Área | Problema | Passa no filtro? |
+|---|---|---|
+| Pets | Falta informação clara sobre a composição das rações | ✅ Toma tempo, é repetitivo e depende de análise |
+| Estudos | Falta um plano estruturado para meus estudos AWS | ✅ Toma tempo, é repetitivo e depende de análise |
+| Finanças | Não consigo comparar os preços das minhas compras mês a mês | ✅ Toma tempo, é repetitivo e depende de análise |
+| Pets / comunidade | Falta informação reunida sobre prestadores de serviços para pets | ⚪ Toma tempo e depende de análise, mas não é repetitivo |
+
+Escolhi a ideia da ração para praticar o PACEF.
+
+### Testei o prompt
+
+Rodei o prompt no ChatGPT gratuito com a foto do rótulo.
+A IA respeitou o formato e admitiu quando o rótulo não permitia concluir algo,
+em vez de inventar. A descoberta mais importante: o mais útil foi saber
+o que o rótulo *não* informa.
+
+➡️ Registro completo: [`prompts/racao-pacef-v1.md`](https://github.com/RegiMaria/potencia-ia-criadoras-do-futuro/blob/main/projeto/02-racao-pacef-v1.md)
