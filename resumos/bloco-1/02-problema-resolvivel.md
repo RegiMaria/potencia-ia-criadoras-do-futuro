@@ -50,3 +50,18 @@ Analisar três situações e decidir se faz sentido usar IA:
 
 ## Minha reflexão
 _Qual sintoma do meu dia a dia esconde um problema maior?_
+
+
+### Minha reflexão
+
+Achei difícil começar, mas quando olhei para a minha rotina, os sintomas apareceram:
+
+| Área | Sintoma (o que eu percebo) | Problema (a causa) |
+|---|---|---|
+| Pets | Não entendo o que tem na ração dos meus cachorros | Falta informação clara e comparável sobre a composição |
+| Pets / comunidade | É difícil achar serviços confiáveis para os meus cães | Falta informação reunida sobre experiência e avaliação dos prestadores |
+| Estudos | Perco a noção de onde parei na trilha AWS | Falta um plano estruturado e acompanhamento do progresso |
+| Finanças | Não sei se estou pagando mais caro que no mês passado | Os dados das compras ficam espalhados |
+
+No trabalho, já usamos RAG para extrair informações de documentos. Agora estou aprendendo a aplicar esse mesmo olhar a problemas do meu dia a dia.
+
