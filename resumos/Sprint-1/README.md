@@ -1,7 +1,7 @@
 # Sprint 1 - Resolução Criativa de Problemas com IA
 
-**Potenc.IA · Formação em Inteligência Artificial para Mulheres**
-**Trilha 3 · Criadoras do Futuro com IA**
+**Potenc.IA - Formação em Inteligência Artificial para Mulheres**
+**Trilha 3 - Criadoras do Futuro com IA**
 📅 **24/09/2026 → 29/09/2026**
 
 > **Da identificação de um problema à criação e validação de uma solução apoiada por IA.**
@@ -22,7 +22,7 @@ O principal aprendizado foi mudar o ponto de partida:
 
 ---
 
-## 📚 O que estudamos
+## O que estudamos
 
 A Sprint percorreu um caminho que vai da identificação do problema até a prototipação e validação de uma solução.
 
@@ -41,7 +41,7 @@ A Sprint percorreu um caminho que vai da identificação do problema até a prot
 
 ---
 
-# 🧠 O que aprendemos
+# O que aprendemos
 
 ## 1. Começar pelo problema, não pela ferramenta
 
@@ -134,7 +134,7 @@ O problema passa a ter:
 
 ---
 
-# 🧩 Framework PACEF
+# Framework PACEF
 
 Para estruturar prompts, estudamos o framework **PACEF**:
 
@@ -158,7 +158,7 @@ Esse encadeamento de prompts faz parte do processo de construção da solução.
 
 ---
 
-# 🧪 Experimento prático: análise de rótulo com IA
+# Experimento prático: análise de rótulo com IA
 
 Escolhi um problema real relacionado à alimentação dos meus cachorros para colocar os conceitos em prática.
 
@@ -184,7 +184,7 @@ Isso trouxe uma lição importante:
 
 ---
 
-# 🧠 O principal aprendizado do experimento
+# O principal aprendizado do experimento
 
 O experimento transformou em prática algo que estudamos na Sprint:
 
@@ -240,7 +240,7 @@ Era **aprender a construir um processo de solução com IA**.
 
 ---
 
-# 📌 O que mudou na minha forma de usar IA
+# O que mudou na minha forma de usar IA
 
 ### Antes
 
@@ -262,29 +262,29 @@ Também passa a ser:
 
 ---
 
-# 💡 Principais aprendizados da Sprint
+# Principais aprendizados da Sprint
 
-### 01 · Problema antes da ferramenta
+### 01 - Problema antes da ferramenta
 
 A ferramenta é consequência da necessidade.
 
-### 02 · Sintoma não é causa
+### 02 - Sintoma não é causa
 
 Resolver apenas o que aparece na superfície pode não resolver o problema real.
 
-### 03 · Prompt é parte do raciocínio
+### 03 - Prompt é parte do raciocínio
 
 Escrever um bom prompt exige clareza sobre o que quero, por quê e com quais informações.
 
-### 04 · IA não elimina o senso crítico
+### 04 - IA não elimina o senso crítico
 
 A IA pode gerar respostas convincentes, inclusive quando está errada.
 
-### 05 · Validar faz parte da solução
+### 05 - Validar faz parte da solução
 
 Testar a saída é tão importante quanto criar o prompt.
 
-### 06 · Iterar é aprender
+### 06 - Iterar é aprender
 
 Uma primeira resposta não precisa ser a resposta final.
 
@@ -306,7 +306,7 @@ O curso ajudou a transformar práticas que eu já fazia de maneira intuitiva em 
 
 ---
 
-## 🚀 Próximo passo
+## Próximo passo
 
 A Sprint 1 termina na identificação, estruturação, prototipação e validação inicial de uma ideia.
 
@@ -316,13 +316,15 @@ O próximo desafio é continuar transformando:
 
 ---
 
-### 📂 Registros práticos
+### Registros práticos
 
+* `Matriz de viabilidade.md`
 * [`racao-pacef-v1.md`](https://github.com/RegiMaria/potencia-ia-criadoras-do-futuro/blob/main/prompts/racao-pacef-v1.md) — primeiro experimento com PACEF
 * [`racao-pacef-v2.md`](https://github.com/RegiMaria/potencia-ia-criadoras-do-futuro/blob/main/prompts/racao-pacef-v2.md) — comparação entre ferramentas e aprendizados do experimento
+
 
 ---
 
 > **"A IA não resolve problemas mal contados."**
 
-**Sprint 1 concluída · Potenc.IA · Criadoras do Futuro com IA 💜**
+**Sprint 1 concluída - Potenc.IA - Criadoras do Futuro com IA 💜**
