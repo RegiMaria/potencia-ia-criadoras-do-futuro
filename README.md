@@ -1,9 +1,9 @@
 <p align="center">
   <img
     width="1200"
-    height="300"
+    height="400"
     alt="Banner"
-    src="https://github.com/user-attachments/assets/66f0a1c3-3662-4107-825c-d4319cd58936"
+    src="https://github.com/user-attachments/assets/cc8467d8-5290-4f57-a239-53694a8dcd5d"
   />
 </p>
 
@@ -63,11 +63,11 @@ A formação tem três trilhas, de acordo com o nível de cada participante. A m
 
 ## Conteúdo estudado
 
-- Sprint-1
-- Sprint-2
-- Sprint-3
-- Sprint-4
-- Sprint-4
+- [Sprint-1](https://github.com/RegiMaria/potencia-ia-criadoras-do-futuro/tree/main/resumos/Sprint-1) | 24/09/2026 - 29/09/2026
+- [Sprint-2](https://github.com/RegiMaria/potencia-ia-criadoras-do-futuro/tree/main/resumos/Sprint-2) | 30/09/2026 - 05/10/2026
+- Sprint-3 | 06/10/2026 - 11/10/2026
+- Sprint-4 | 12/10/2026 - 17/10/2026
+- Sprint-4 | 18/10/2026 - 23/10/2026
 
 ## Meu projeto
 
@@ -87,7 +87,7 @@ Matriz de viabilidade → Proposta → Fluxo → Validação ética → Refiname
 | v3.0 | Após refinamento | ⏳ |
 
 Os detalhes de cada etapa ficam na pasta [`projeto/`](projeto/).
-Os detalhes de cada sprints estão em `resumos`.
+Os detalhes de cada sprints estão em [`resumos/`](https://github.com/RegiMaria/potencia-ia-criadoras-do-futuro/tree/main/resumos).
 
 ## Frameworks que uso
 
