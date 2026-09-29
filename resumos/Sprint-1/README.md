@@ -2,6 +2,7 @@
 
 **Potenc.IA - Formação em Inteligência Artificial para Mulheres**
 **Trilha 3 - Criadoras do Futuro com IA**
+
 📅 **24/09/2026 → 29/09/2026**
 
 > **Da identificação de um problema à criação e validação de uma solução apoiada por IA.**
@@ -319,12 +320,48 @@ O próximo desafio é continuar transformando:
 ### Registros práticos
 
 * `Matriz de viabilidade.md`
-* [`racao-pacef-v1.md`](https://github.com/RegiMaria/potencia-ia-criadoras-do-futuro/blob/main/prompts/racao-pacef-v1.md) — primeiro experimento com PACEF
-* [`racao-pacef-v2.md`](https://github.com/RegiMaria/potencia-ia-criadoras-do-futuro/blob/main/prompts/racao-pacef-v2.md) — comparação entre ferramentas e aprendizados do experimento
+* [`racao-pacef-v1.md`](https://github.com/RegiMaria/potencia-ia-criadoras-do-futuro/blob/main/prompts/racao-pacef-v1.md) - primeiro experimento com PACEF
+* [`racao-pacef-v2.md`](https://github.com/RegiMaria/potencia-ia-criadoras-do-futuro/blob/main/prompts/racao-pacef-v2.md) - comparação entre ferramentas e aprendizados do experimento
 
 
 ---
 
-> **"A IA não resolve problemas mal contados."**
+# Tópicos estudados na Sprint-1
+**Duração: 24/09/2026 - 29/09/2026**
+
+| # | Módulo | Status |
+|---|---|---|
+| 01 | Formular problemas reais que podem ser resolvidos com IA | [✅](https://github.com/RegiMaria/potencia-ia-criadoras-do-futuro/blob/main/resumos/bloco-1/01-formular-problemas.md) |
+| 02 | O que é um problema resolvível com IA? | [✅](resumos/bloco-1/02-problema-resolvivel.md) |
+| 03 | IA ao nosso redor: onde já existem soluções? | [✅](resumos/bloco-1/03-ia-ao-nosso-redor.md) |
+| 04 | Olhando para seu contexto: onde a IA poderia ajudar? | [✅](resumos/bloco-1/04-olhando-para-seu-contexto.md) |
+| 05 | Como transformar um problema em pergunta para IA resolver | [✅](resumos/bloco-1/05-problema-em-pergunta.md) |
+| 06 | Que tipo de IA pode resolver seu problema? | [✅](resumos/bloco-1/06-tipos-de-ia.md) |
+| 07 | Escolhendo o problema certo para prototipar com IA | [✅](resumos/bloco-1/07-escolhendo-o-problema.md) |
+
+### Bloco 2 · Planejar soluções com apoio de ferramentas de IA
+
+| # | Módulo | Resumo |
+|---|---|---|
+| 08 | Planejar soluções com apoio de ferramentas de IA | [✅](resumos/bloco-2/08-planejar-solucoes.md) |
+| 09 | Tipos de solução com IA: o que é possível fazer hoje? | [✅](resumos/bloco-2/09-tipos-de-solucao.md) |
+| 10 | De ideia à solução: estruturando sua proposta | [✅](resumos/bloco-2/10-estruturando-a-proposta.md) |
+| 11 | Conhecendo ferramentas acessíveis para começar | [✅](resumos/bloco-2/11-ferramentas-acessiveis.md) |
+| 12 | Desenhando o fluxo da sua solução | [✅](resumos/bloco-2/12-desenhando-o-fluxo.md) |
+| 13 | A IA dá conta? Validando a viabilidade da sua solução | [✅](resumos/bloco-2/13-validando-a-viabilidade.md) |
+| 14 | Refinando sua solução com ajuda da IA | [✅](resumos/bloco-2/14-refinando-a-solucao.md) |
+
+### Bloco 3 · Prototipar com IA
+
+| # | Módulo | Resumo |
+|---|---|---|
+| 15 | Testar hipóteses e validar ideias com protótipos apoiados por IA | [⏳](resumos/bloco-3/15-testar-hipoteses.md) |
+| 16 | O que é prototipar com IA? | [⏳](resumos/bloco-3/16-o-que-e-prototipar.md) |
+| 17 | Criando um protótipo de comunicação com IA (texto ou chatbot) | ⏳ |
+| 18 | Criando um protótipo visual com IA (imagem, app ou interface) | ⏳ |
+| 19 | Prototipando automações e fluxos com IA | ⏳ |
+| 20 | Como validar seu protótipo com pessoas (e com a própria IA) | ⏳ |
+| 21 | Iterar: aprendendo com os testes para melhorar a solução | ⏳ |
+
 
 **Sprint 1 concluída - Potenc.IA - Criadoras do Futuro com IA 💜**
