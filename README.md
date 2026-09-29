@@ -8,7 +8,7 @@
 </p>
 
 
-# Potenc.IA · Formação em Inteligência Artificial para Mulheres
+# Potenc.IA - Formação em Inteligência Artificial para Mulheres
 
 > Repositório pessoal de estudos da formação **Potenc.IA**, uma parceria entre a [MCIO Brasil](https://mciobrasil.org.br/SitePages/quem-somos.aspx) e a **[Prosper Sprints](https://prosperdigitalskills.com/contato-2/)**.
 > Trilha: **Criadoras do Futuro com IA (Avançada) · 2026**
@@ -36,7 +36,7 @@ Ninguém aprende sozinha: a formação tem mentoria semanal em grupo, um espaço
 | | |
 |---|---|
 | 🧭 **Trilha personalizada** | A jornada é construída a partir dos gaps identificados no assessment inicial, de acordo com o nível de familiaridade com IA de cada participante. |
-| 📅 **Ciclos de 7 dias** | Conteúdos assíncronos organizados semanalmente, para dar ritmo e autonomia. |
+| 📅 **5 Sprints** | Conteúdos assíncronos organizados semanalmente, para dar ritmo e autonomia. |
 | 🤝 **Mentoria em grupo** | Encontros semanais de 1 hora para escuta, orientação e apoio no projeto prático. |
 | 💡 **3 horas de conteúdo por sprint** | Foco em habilidades práticas de IA aplicadas a desafios reais do dia a dia pessoal e profissional. |
 | 🛠️ **Exercícios e desafios de prompt** | Atividades baseadas em situações reais para aplicar o conhecimento de forma contextualizada. |
@@ -63,7 +63,7 @@ A formação tem três trilhas, de acordo com o nível de cada participante. A m
 
 ## Conteúdo estudado
 
-### Bloco 1 · Formular problemas reais que podem ser resolvidos com IA
+### Sprint 1 - Formular problemas reais que podem ser resolvidos com IA
 
 | # | Módulo | Status |
 |---|---|---|
@@ -94,6 +94,10 @@ A formação tem três trilhas, de acordo com o nível de cada participante. A m
 | 15 | Testar hipóteses e validar ideias com protótipos apoiados por IA | [⏳](resumos/bloco-3/15-testar-hipoteses.md) |
 | 16 | O que é prototipar com IA? | [⏳](resumos/bloco-3/16-o-que-e-prototipar.md) |
 | 17 | Criando um protótipo de comunicação com IA (texto ou chatbot) | ⏳ |
+| 18 | Criando um protótipo visual com IA (imagem, app ou interface) | ⏳ |
+| 19 | Prototipando automações e fluxos com IA | ⏳ |
+| 20 | Como validar seu protótipo com pessoas (e com a própria IA) | ⏳ |
+| 21 | Iterar: aprendendo com os testes para melhorar a solução | ⏳ |
 
 ## Meu projeto
 
@@ -113,6 +117,7 @@ Matriz de viabilidade → Proposta → Fluxo → Validação ética → Refiname
 | v3.0 | Após refinamento | ⏳ |
 
 Os detalhes de cada etapa ficam na pasta [`projeto/`](projeto/).
+Os detalhes de cada sprints estão em `resumos`.
 
 ## Frameworks que uso
 
