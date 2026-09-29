@@ -63,7 +63,11 @@ A formação tem três trilhas, de acordo com o nível de cada participante. A m
 
 ## Conteúdo estudado
 
-### Sprint 1 - Formular problemas reais que podem ser resolvidos com IA
+- Sprint-1
+- Sprint-2
+- Sprint-3
+- Sprint-4
+- Sprint-4
 
 ## Meu projeto
 
@@ -117,9 +121,9 @@ Fazendo o assessment, percebi que eu sabia coisas que nem sabia que sabia:
 
 ```
 📁 resumos/
-   ├── bloco-1/     → formular problemas (módulos 01 a 07)
-   ├── bloco-2/     → planejar soluções (módulos 08 a 14)
-   └── bloco-3/     → prototipar (módulos 15 em diante)
+   ├── sprint-1/     → formular problemas (módulos 01 a 07)
+   ├── sprint-2/     → planejar soluções (módulos 08 a 14)
+   └── sprint-3/     → prototipar (módulos 15 em diante)
 📁 projeto/         → matriz, proposta, fluxo e versões do meu projeto
 📁 prompts/         → prompts que testei, com versões e o que mudou
 📁 reflexoes/       → textos e posts sobre a jornada
