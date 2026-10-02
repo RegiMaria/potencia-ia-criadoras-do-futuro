@@ -71,7 +71,18 @@ A formação tem três trilhas, de acordo com o nível de cada participante. A m
 
 ## Meu projeto
 
-> 🚧 **Em definição.** O problema será escolhido pela matriz de viabilidade.
+O projeto foi definido a partir da Matriz de viabilidade em [`resumo/sprint-1/prompst/01-matriz-de-viabilidade.md.`](https://github.com/RegiMaria/potencia-ia-criadoras-do-futuro/blob/main/projeto/Sprint-1/01-proposta-v1.md)
+
+Confira a proposta em [`projeto/sprint-1/01-proposta-v1.md`](https://github.com/RegiMaria/potencia-ia-criadoras-do-futuro/blob/main/projeto/Sprint-1/01-proposta-v1.md)
+
+--- 
+
+## Overview
+
+<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/dc9446c7-fc92-4a66-8684-d80455ee93b7" />
+
+---
+
 
 O projeto segue o caminho que a trilha ensina:
 
@@ -82,7 +93,7 @@ Matriz de viabilidade → Proposta → Fluxo → Validação ética → Refiname
 
 | Versão | Etapa | Status |
 |---|---|---|
-| v1.0 | Proposta inicial | ⏳ |
+| v1.0 | Proposta inicial | 🟨 |
 | v2.0 | Após os primeiros testes | ⏳ |
 | v3.0 | Após refinamento | ⏳ |
 
