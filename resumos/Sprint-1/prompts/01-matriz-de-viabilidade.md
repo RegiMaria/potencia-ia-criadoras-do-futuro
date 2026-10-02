@@ -47,8 +47,16 @@ Vindos da minha reflexão nos módulos 02, 03 e 04.
 - Acesso: depende de cadastrar prestadores e juntar avaliações, dados que eu não tenho.
 - Tempo: montar essa base leva meses.
 
-## Problema escolhido
+## ⭐ Problema escolhido
 
-> 🚧 _A definir._
+Conta-Certa (Comparar preços de compras mês a mês para acompanhar inflação de itens no mercado)
 
-**Por quê:** _..._
+**Por quê:**
+
+Embora o tempo de teste real pareça longo na teoria,
+descobri que posso prototipar a solução em dias usando notas fiscais antigas
+e cupons simulados.
+É o problema de maior impacto prático no orçamento familiar,
+exige o uso de uma IA Híbrida (Visão + Extração + Automação)
+e me permitirá dominar as ferramentas mais avançadas da formação (Lovable, Make e Gemini).
+
