@@ -75,8 +75,6 @@ O projeto **Conta-Certa** opera sob a estrutura fundamental de automação:
 
 -  Estudo de documentos: NotebookLM para analisar estruturas do padrão de dados da NFC-e e NFe brasileira.
 
-  <ElicitationsGroup message="Qual o próximo arquivo que gostaria de estruturar?">
-  <Elicitation label="Criar o checklist de Ética, Privacidade e Viabilidade do Módulo 13 (projeto/03-viabilidade-e-etica-v1.md)" query="Vamos criar o checklist de viabilidade e ética (Módulo 13) para o Conta-Certa."/>
-  <Elicitation label="Criar o prompt PACEF para leitura e extração das notas (prompts/01-ocr-nota-fiscal-pacef-v1.md)" query="Vamos criar o arquivo do prompt PACEF para extração do cupom fiscal e salvar na pasta prompts/."/>
-  <Elicitation label="Criar o script de refinamento com feedback da IA para o Módulo 14 (projeto/04-refinamento-v1.md)" query="Vamos estruturar a etapa de refinamento da proposta com a IA para o Módulo 14."/>
-</ElicitationsGroup>
+## 3. Diagrama de fluxo
+
+<img width="1291" height="5137" alt="Image" src="https://github.com/user-attachments/assets/ae44ab30-8f24-432a-b3e0-20cc9da434a6" />
