@@ -43,4 +43,4 @@ Acesse a[ página Whimsical](https://whimsical.com/workspace9765/MCWRi9paQjGPkRB
 tratamento de erros (foto ruim), bifurcação das tabelas no banco de dados
 e alertas de variação de preço (subiu, baixou ou estável).
 
-**Arquivo de imagem salvo:** `projeto/Sprint-1/fluxo-conta-certa-whimsical.png`
+**Arquivo de imagem salvo:** [`projeto/Sprint-1/fluxo-conta-certa-whimsical.png`](https://github.com/RegiMaria/potencia-ia-criadoras-do-futuro/blob/main/projeto/Sprint-1/fluxo-conta-certa-whimsical.png)
