@@ -53,3 +53,13 @@ Entregue o resultado estritamente em formato JSON válido, seguindo esta estrutu
   ]
 }
 ```
+
+## Registro de Testes & Iterações
+Teste v1.0 (ChatGPT vs. Gemini)
+Entrada testada: Foto de cupom fiscal do supermercado contendo 8 itens, amassada e com CPF impresso no rodapé.
+
+Resultado no ChatGPT (4o/Gratuito): Extraiu os 8 itens com precisão, converteu o JSON corretamente
+e ignorou o CPF. Errou apenas a quantidade de um item de hortifruti vendido por peso (KG).
+
+Resultado no Gemini (Pro/Advanced): Leu os nomes normalizados com excelente precisão idiomática brasileira,
+mas colocou texto explicativo fora do bloco JSON.
