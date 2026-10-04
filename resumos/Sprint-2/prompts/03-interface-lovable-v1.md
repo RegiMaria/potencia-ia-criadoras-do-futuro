@@ -28,6 +28,16 @@ A tela deve conter as seguintes seções:
    - Botões de navegação: "Início", "Histórico de Compras", "Meus Produtos" e "Configurações".
 
 Use uma paleta de cores moderna (tons de verde-esmeralda, azul-marinho e fundo claro) transmitindo controle financeiro e organização.
-
 ```
+## Passo a Passo no Lovable:
+1. Acesse lovable.dev e faça login.
 
+2. Cole o prompt acima no campo de criação e pressione Enter.
+
+4. Aguarde o Lovable gerar a interface interativa em alguns minutos.
+
+5. Clique no botão Publish no canto superior direito para gerar o link público da sua aplicação.
+
+6. Guarde a URL publicada para registrar no repositório!
+
+## 🤩 URL gerada: [https://cupom-control.lovable.app](https://cupom-control.lovable.app)
