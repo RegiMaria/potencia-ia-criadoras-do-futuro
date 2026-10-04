@@ -119,27 +119,165 @@ Os detalhes de cada sprints estão em [`resumos/`](https://github.com/RegiMaria/
 | Fluxos e estudo | Whimsical, NotebookLM, Napkin |
 | Protótipos | Lovable, v0, Gamma |
 
-## O que o diagnóstico me mostrou
+# Conta-Certa · Automação Inteligente de Cupons Fiscais
 
-Fazendo o assessment, percebi que eu sabia coisas que nem sabia que sabia:
+> Repositório de estudos e desenvolvimento do projeto **Conta-Certa**, criado durante a formação **Potenc.IA**, uma parceria entre a [MCIO Brasil](https://mciobrasil.org.br/SitePages/quem-somos.aspx) e a **[Prosper Sprints](https://prosperdigitalskills.com/contato-2/)**.  
+> **Trilha: Criadoras do Futuro com IA (Avançada) · 2026**
 
-- **A IA entra no meio do processo, não nas pontas.** Quem define o problema no início e valida o resultado no fim é a pessoa.
-- **Quando a IA erra, muitas vezes faltou contexto.** Resposta genérica costuma vir de pedido genérico.
-- **O dia a dia também ensina.** Pedir bem um treino de corrida usa a mesma habilidade de pedir bem um relatório.
-- **Nem todo problema pede IA generativa.** Antes da ferramenta, vem entender o problema.
+![Status](https://img.shields.io/badge/status-v1.1--release%20(em%20andamento)-8A2BE2)
+![Trilha](https://img.shields.io/badge/trilha-Criadoras%20do%20Futuro%20com%20IA-6A0DAD)
+![Versão](https://img.shields.io/badge/vers%C3%A3o-v1.1--MVP-4B0082)
 
-## Organização deste repositório
+---
+>  **Acesse o Aplicativo ao Vivo:** [https://cupom-control.lovable.app/](https://cupom-control.lovable.app/)
 
-```
-📁 resumos/
-   ├── sprint-1/     → formular problemas (módulos 01 a 07)
-   ├── sprint-2/     → planejar soluções (módulos 08 a 14)
-   └── sprint-3/     → prototipar (módulos 15 em diante)
-📁 projeto/         → matriz, proposta, fluxo e versões do meu projeto
-📁 prompts/         → prompts que testei, com versões e o que mudou
-📁 reflexoes/       → textos e posts sobre a jornada
+![Status](https://img.shields.io/badge/status-v1.1--release%20(em%20andamento)-8A2BE2)
+![App Live](https://img.shields.io/badge/app-online-brightgreen)
+
+##  Sobre o Projeto "Conta-Certa"
+
+O **Conta-Certa** é uma solução *Low-Code* integrada com Inteligência Artificial Multimodal (Visão Computacional) desenvolvida para resolver o problema da organização de gastos domésticos e conferência de preços de supermercado.
+
+A partir do envio da foto ou PDF de um cupom fiscal/NFC-e, o sistema realiza a leitura via OCR inteligente, extrai os dados, normaliza os nomes dos produtos, realiza a categorização automática e salva os dados na planilha do usuário, respeitando rigorosamente as diretrizes da LGPD (ignorando dados sensíveis como CPF ou número de cartão).
+
+---
+
+##  Arquitetura da Solução & Fluxo de Dados
+
+```text
+[ App Web (Lovable) ] ──(POST / Multipart File)──> [ Webhook n8n ]
+                                                         │
+                                                         ▼
+[ Google Sheets ] <──(Append Row / Split Out)── [ Gemini Flash Lite (Vision OCR) ]
 ```
 
 ---
+
+## Componentes da Arquitetura:
+- Front-End (Interface do Usuário): Desenvolvido no Lovable com botão de upload de cupons fiscais e feedback de envio.
+
+- Orquestrador de Fluxo: n8n Cloud gerenciando a recepção, tratamento de arquivos e direcionamento de chamadas.
+
+- Visão Computacional & OCR: Google Gemini (Flash Lite) alimentado pelo Prompt PACEF v1.0 para estruturação estrita em JSON.
+
+- Armazenamento / Banco de Dados: Google Sheets atuando como repositório de histórico estruturado.
+
+## Galeria do Projeto (Interface & Automação)
+
+<div align="center"> <img width="200" alt="Image" src="https://github.com/user-attachments/assets/52b55575-06bf-47c0-8419-746256e1523f" /> </div>
+
+## 🚀 Evidência de Execução - Fluxo Completo
+
+### 1️⃣ Interface Lovable - Envio da Imagem
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c0bcf6f8-f21a-4b8e-a0a2-4f4d4c5c08dd"
+       alt="Interface do Lovable enviando imagem"
+       width="800">
+</p>
+
+<p align="center">
+  📤 <strong>Etapa 1:</strong> a interface do Lovable recebe a imagem do cupom fiscal
+  e inicia o processamento.
+</p>
+
+---
+
+### 2️⃣ Lovable - Envio Realizado com Sucesso
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b0f32482-102a-46e6-b8a9-0d4659e4394d"
+       alt="Lovable enviando dados com sucesso"
+       width="800">
+</p>
+
+<p align="center">
+  ✅ <strong>Etapa 2:</strong> a imagem é enviada com sucesso para o fluxo de processamento.
+</p>
+
+---
+
+### 3️⃣ n8n - Processamento Completo
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1ad805fd-db41-4704-8306-47f690d5526e"
+       alt="Fluxo n8n executado com sucesso"
+       width="850">
+</p>
+
+<p align="center">
+  ⚙️ <strong>Etapa 3:</strong> o workflow do n8n executa todas as etapas de processamento
+  com sucesso, desde o recebimento da imagem até a saída dos dados.
+</p>
+
+---
+###  4️⃣ n8n - Escrita na planilha
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a012a92d-3a38-4982-b59d-d0106cdd5c3a" 
+       alt="Fluxo n8n executado com sucesso"
+       width="850">
+</p>
+
+<p align="center">
+  ⚙️ <strong>Etapa 4:</strong> o workflow do n8n executa todas as etapas de processamento
+  com sucesso, desde o recebimento da imagem até a saída dos dados. A saída é escrita na planilha conta-certa.
+</p>
+
+
+
+### 🔄 Fluxo Validado
+
+<p align="center">
+
+<strong>📷 Lovable</strong>
+&nbsp; → &nbsp;
+<strong>🔗 Integração</strong>
+&nbsp; → &nbsp;
+<strong>⚙️ n8n</strong>
+&nbsp; → &nbsp;
+<strong>🤖 Processamento</strong>
+&nbsp; → &nbsp;
+<strong>📊 Dados Estruturados</strong>
+
+</p>
+
+
+## Evolução do Projeto & Status do MVP
+
+| **Versão** | **Etapa / Sprint** | **Descrição & Entregas** | **Status** |
+|---|---|---|---|
+| **v1.0** | Sprint 1 | Matriz de viabilidade, proposta conceitual e prompt PACEF v1.0. | 🟢 Concluído |
+| **v1.1** | Sprint 2 | Conexão Lovable + n8n + Gemini Flash Lite + Google Sheets (Webhooks & Resolução de Erros). | 🟢 Concluído |
+| **v1.2** | Sprint 2 (Ajuste) | Formatação de expressões (`fx`) e desmembramento da lista de itens (`Split Out`). | ⏳ Em andamento |
+| **v2.0** | Sprint 3 | Painel comparativo de preços e refinamentos de UX. | 📅 Planejado |
+
+## Resolução de Problemas (Troubleshooting v1.1)
+- Durante a integração da automação na Sprint 2, diagnosticamos e resolvemos os seguintes desafios técnicos:
+
+- Mapeamento de Variável Binária: Ajuste do campo no nó do Gemini de data para file, alinhando ao payload enviado pelo Lovable.
+
+ - Estabilidade de API Gratuitas: Troca do modelo pesado `gemini-2.5-flash` para `gemini-flash-lite-latest` e ativação da política de reexecução (Retry On Fail de 3 tentativas).
+
+- Mapeamento no Google Sheets: Transição de valores fixos (Fixed) para expressões ativas (fx) para que os dados extraídos pelo JSON fossem gravados corretamente.
+
+## Organização do Repositório
+
+```
+📁 projeto/         → Propostas, arquitetura e documentações das versões (v1.0, v1.1, etc.)
+📁 resumos/         → Resumos assíncronos e anotações dos módulos de cada Sprint
+📁 prompts/         → Prompts desenvolvidos com o framework PACEF (OCR, Validação, Normalização)
+📁 reflexoes/       → Artigos, posts e registros de aprendizados da jornada
+
+```
+## Ferramentas Utilizadas
+- IA Generativa & Visão: Google Gemini 1.5 / Flash Lite, ChatGPT (Prompt Engineering)
+
+- Automação & Low-Code: n8n Cloud, Webhooks HTTP POST
+
+- Prototipagem & Interface: Lovable, Whimsical (Diagramas)
+
+- Armazenamento: Google Sheets API
+
 
 > 📌 **Sobre o conteúdo:** este repositório reúne apenas material de minha autoria (resumos, prompts, projeto e reflexões). Os conteúdos oficiais da formação, como vídeos, slides e transcrições, pertencem à MCIO Brasil e à Prosper Sprints.
