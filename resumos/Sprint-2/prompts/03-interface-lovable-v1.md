@@ -41,3 +41,7 @@ Use uma paleta de cores moderna (tons de verde-esmeralda, azul-marinho e fundo c
 6. Guarde a URL publicada para registrar no repositório!
 
 ## 🤩 URL gerada: [https://cupom-control.lovable.app](https://cupom-control.lovable.app)
+
+## Interface Lovable **conta-certa**
+
+<img width="1000" height="700" alt="Image" src="https://github.com/user-attachments/assets/a150d84c-f3f3-4a4c-840c-e6d538785854" />
